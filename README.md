@@ -1,6 +1,6 @@
 # Operational SLA Monitoring Dashboard
 
-![Operational SLA Monitoring Dashboard](dashboard-preview.jpg)
+![Operational SLA Monitoring Dashboard](imagesdashboard-preview.jpg)
 
 ## 📌 Project Overview
 
