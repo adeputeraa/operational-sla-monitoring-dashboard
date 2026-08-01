@@ -122,9 +122,9 @@ Displays pending cases grouped by Relationship Manager.
 - Help Team Leaders prioritize follow-up
 - Improve communication between Operations and Business teams
 
----
+--
 
-## 📋 Data Dictionary
+### 📋 Data Dictionary
 
 | Column | Data Type | Description |
 |---------|-----------|-------------|
@@ -147,6 +147,19 @@ Displays pending cases grouped by Relationship Manager.
 | rm_team_leader | Text | Team Leader responsible for the Relationship Manager |
 | analyst | Text | Assigned KYC Analyst responsible for the review |
 | additional_remarks | Text | Additional notes regarding pending issues or operational remarks |
+
+--
+
+### 📐 Business Rules
+
+| Rule | Definition |
+|------|------------|
+| Aging | Reporting Date − Initiated Date |
+| Overdue | Aging with >90 days (category 91-180 days and >180 days) |
+| Green KPI | Number of profile overdue <= 5% |
+| Amber KPI | Number of profile overdue 5% < and <= 10% |
+| Red KPI | Number of profile overdue >10% |
+| Path to Green | Number of cases that must be completed to achieve the Green KPI threshold |
 
 ---
 
