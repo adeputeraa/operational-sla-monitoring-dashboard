@@ -193,16 +193,67 @@ Displays pending cases grouped by Relationship Manager.
 
 ---
 
-## 📊 Project Status
+# 📈 Business Insights
 
-🚧 Currently in development.
+### Insight 1 – Trigger Event requires immediate attention
 
-The following components will be added gradually:
+**Observation**
 
-- Business Requirement
-- Dummy Dataset
-- Dashboard
-- Business Insights
-- Recommendations
+Trigger Event remains in **Red** status with **7 overdue cases** at the end of July 2025.
+
+**Business Impact**
+
+The monthly SLA target for Trigger Event reviews has not yet been achieved, increasing operational and compliance risk.
+
+**Possible Cause**
+
+Most overdue Trigger Event cases are currently pending at the Analyst Review and RM Response stages.
+
+---
+
+### Insight 2 – Periodic reviews are generally under control
+
+**Observation**
+
+Periodic reviews across most risk ratings have achieved the Green KPI threshold, except for SCC.
+
+**Business Impact**
+
+Routine operational reviews are progressing as expected, allowing the team to focus on higher-risk outstanding cases.
+
+---
+
+### Insight 3 – Analyst workload should be reviewed
+
+**Observation**
+
+Analyst C currently has the highest number of ongoing cases.
+
+**Possible Cause**
+
+Further investigation is required to determine whether this is caused by workload imbalance, case complexity, or delayed customer response.
+
+---
+
+### Insight 4 – RM follow-up is a priority
+
+**Observation**
+
+Pending RM Response represents one of the largest groups of outstanding cases.
+
+**Business Impact**
+
+Faster follow-up with Relationship Managers could significantly reduce overdue cases and improve SLA performance.
+
+---
+
+# 💡 Business Recommendations
+
+Based on the analysis above, the following actions are recommended:
+
+1. Conduct daily follow-up with Relationship Managers for pending responses.
+2. Review Analyst C's workload and redistribute cases if necessary.
+3. Investigate the root cause of delays in Analyst Review and RM Response stages.
+4. Monitor the Path to Green KPI during weekly operational meetings.
 
 ---
