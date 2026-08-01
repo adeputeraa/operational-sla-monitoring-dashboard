@@ -124,6 +124,32 @@ Displays pending cases grouped by Relationship Manager.
 
 ---
 
+## 📋 Data Dictionary
+
+| Column | Data Type | Description |
+|---------|-----------|-------------|
+| customer_number | Text | Complete unique customer identifier |
+| CIF | Text | Unique customer identifier used in the core banking system |
+| customer_name | Text | Customer name |
+| risk_rating | Text | Customer risk classification (SCC, High, Medium, Low) |
+| review_reason | Text | Reason for the review (Periodic or Trigger Event) |
+| initiated_date | Date | Date when the KYC review was initiated |
+| due_date | Date | SLA due date for completing the review |
+| month_due_date | Text | Month extracted from the Due Date |
+| year_due_date | Number | Year extracted from the Due Date |
+| latest_status | Text | Current workflow status |
+| completed_date | Date | Date when the review was completed |
+| aging | Number | Number of days since the review was initiated |
+| aging_category | Text | 0–60 days, 61–90 days, 91–180 days, >180 days |
+| letter_date | Date | Date when the reminder letter should be sent |
+| restriction_date | Date | Date when customer services may be restricted due to incomplete documentation |
+| relationship_manager | Text | Name of Relationship Manager |
+| rm_team_leader | Text | Team Leader responsible for the Relationship Manager |
+| analyst | Text | Assigned KYC Analyst responsible for the review |
+| additional_remarks | Text | Additional notes regarding pending issues or operational remarks |
+
+---
+
 ## 🛠 Tools & Skills
 
 ### Tools
