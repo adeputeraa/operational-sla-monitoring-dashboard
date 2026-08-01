@@ -1,5 +1,7 @@
 # Operational SLA Monitoring Dashboard
 
+![Operational SLA Monitoring Dashboard](dashboard-preview.jpg)
+
 ## 📌 Project Overview
 
 This project demonstrates how operational data can be transformed into an interactive dashboard to support Service Level Agreement (SLA) monitoring within an operations team.
