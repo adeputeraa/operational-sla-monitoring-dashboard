@@ -59,14 +59,98 @@ Build an interactive dashboard that enables stakeholders to:
 
 ---
 
-## 🛠 Tools
+## 📊 Dashboard Features
+
+### Total Pending
+
+Displays the number of ongoing customer review cases grouped by Risk Rating (SCC, High, Medium, Low, and Trigger Event). 
+*Note: This group was detemined by management which could be different based on requirement.*
+
+**Business Purpose**
+
+- Monitor current operational workload
+- Identify areas requiring immediate attention
+
+--
+
+### Path to Green
+
+Shows the minimum number of additional cases that must be completed to achieve the Green KPI threshold.
+
+**Business Purpose**
+
+- Track progress toward monthly SLA target & manage prioritization
+- Support daily and weekly operational planning
+
+--
+
+### Analyst Workload
+
+Displays the number of ongoing cases assigned to each analyst.
+
+**Business Purpose**
+
+- Balance workloads across analysts
+- Prevent resource overload
+
+--
+
+### Pending Details
+
+Displays the current status of pending cases.
+
+Examples include:
+
+- Analyst Stage
+- Pending RM Response
+- Pending Customer
+- Pending Compliance
+
+**Business Purpose**
+
+- Identify operational bottlenecks
+- Support escalation decisions
+
+--
+
+### Pending by Relationship Manager
+
+Displays pending cases grouped by Relationship Manager.
+
+**Business Purpose**
+
+- Help Team Leaders prioritize follow-up
+- Improve communication between Operations and Business teams
+
+---
+
+## 🛠 Tools & Skills
+
+### Tools
 
 - Microsoft Excel
 - Pivot Table
 - Pivot Chart
+- Slicer
 - Conditional Formatting
-- Vlookup
-- Other formula
+
+### Excel Functions
+
+- IF
+- EOMONTH
+- MID
+- RIGHT
+- VLOOKUP
+
+### Skills Demonstrated
+
+- Operational Reporting
+- SLA Monitoring
+- Dashboard Design
+- KPI Tracking
+- Data Cleaning
+- Business Analysis
+- Data Visualization
 
 ---
 
