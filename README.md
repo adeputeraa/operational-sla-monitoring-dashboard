@@ -28,7 +28,24 @@ Without centralized monitoring, operations teams may experience:
 
 This dashboard was developed to provide a centralized operational monitoring solution that supports faster and better decision making.
 
---
+---
+
+## 💼 Business Objective
+
+The dashboard is designed to help operational stakeholders answer the following business questions:
+
+- How many cases are currently pending?
+- Which cases are overdue?
+- Are we still on track to achieve the monthly SLA target?
+- How many additional cases need to be completed to reach Green KPI?
+- Which analyst currently has the highest workload?
+- Where are pending cases currently stuck?
+- Which Relationship Managers require immediate follow-up?
+
+The primary objective is to improve operational visibility and support faster, data-driven decision making.
+
+---
+
 ## 🎯 Project Objective
 
 Build an interactive dashboard that enables stakeholders to:
